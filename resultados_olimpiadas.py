@@ -9,8 +9,8 @@ import pandas as pd
 import numpy as np
 import easygui
 #import tkMessageBox  ## in case you us python 2
-import tkinter ## in case you use python3
-
+#import tkinter ## in case you use python3
+from tkinter import tkMessageBox
 ### Open .xlsx
 
 path_file = easygui.fileopenbox(msg=None, title=None, default=None)
