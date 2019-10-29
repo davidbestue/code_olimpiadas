@@ -96,7 +96,7 @@ from tkinter import *
 from tkinter import messagebox
 
 top = Tk()
-top.geometry("300x300+600+350")
+top.geometry("300x300+400+250")
 def winners_msg():
    messagebox.showinfo("", msg)
 
