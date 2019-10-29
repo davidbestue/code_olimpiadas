@@ -8,8 +8,8 @@ Created on Mon Oct 28 23:08:41 2019
 import pandas as pd
 import numpy as np
 import easygui
-#import tkMessageBox
-import tkinter
+#import tkMessageBox  ## in case you us python 2
+import tkinter ## in case you use python3
 
 ### Open .xlsx
 
