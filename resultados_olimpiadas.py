@@ -81,7 +81,7 @@ for subj in list_subjects:
 ### print the output in the terminal 
 sorted_x = sorted(dict_punt.items(), key=lambda kv: kv[1]) 
 sorted_x.reverse() 
-print(sorted_x)
+
         
 ### Message 
 msg ='Ganadores: ' + sorted_x[0][0] + ', ' +sorted_x[1][0] + ' and ' + sorted_x[2][0]
@@ -103,3 +103,6 @@ def winners_msg():
 B1 = Button(top, text = "Los ganadores son...", command = winners_msg)
 B1.place(x = 250,y = 150)
 top.mainloop()
+
+
+print(sorted_x)

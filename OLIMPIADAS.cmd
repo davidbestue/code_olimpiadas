@@ -1,1 +1,1 @@
-"C:\Users\David\Anaconda3\python.exe" "C:\Users\David\Documents\GitHub\code_olimpiadas\resultados_olimpiadas.py"
+python_3 resultados_olimpiadas.py
