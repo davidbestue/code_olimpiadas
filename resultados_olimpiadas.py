@@ -10,7 +10,10 @@ import numpy as np
 import easygui
 #import tkMessageBox  ## in case you us python 2
 #import tkinter ## in case you use python3
-from tkinter import tkMessageBox
+#from tkinter import tkMessageBox
+from tkinter import messagebox
+
+
 ### Open .xlsx
 
 path_file = easygui.fileopenbox(msg=None, title=None, default=None)
@@ -89,8 +92,9 @@ print(sorted_x)
 
 ### Message 
 msg ='Ganadores: ' + sorted_x[0][0] + ', ' +sorted_x[1][0] + ' and ' + sorted_x[2][0]  
-tkMessageBox.showinfo("", msg)
-        
+#tkMessageBox.showinfo("", msg) ### if python 2
+messagebox.showinfo("", msg) ## if python 3
+
         
         
         
