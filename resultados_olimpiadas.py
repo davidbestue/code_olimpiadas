@@ -8,11 +8,8 @@ Created on Mon Oct 28 23:08:41 2019
 import pandas as pd
 import numpy as np
 import easygui
-#import tkMessageBox  ## in case you us python 2
-#import tkinter ## in case you use python3
-#from tkinter import tkMessageBox
-from tkinter import messagebox
 
+ 
 
 ### Open .xlsx
 
@@ -91,10 +88,12 @@ print(sorted_x)
         
 
 ### Message 
-msg ='Ganadores: ' + sorted_x[0][0] + ', ' +sorted_x[1][0] + ' and ' + sorted_x[2][0]  
-#tkMessageBox.showinfo("", msg) ### if python 2
-messagebox.showinfo("", msg) ## if python 3
+msg ='Ganadores: ' + sorted_x[0][0] + ', ' +sorted_x[1][0] + ' and ' + sorted_x[2][0]
 
-        
-        
-        
+######################## python 2 ###########################
+#import tkMessageBox  ## if python 2
+#tkMessageBox.showinfo("", msg) ### if python 2
+
+######################## python 3 ###########################
+from tkinter import messagebox  ## if python 3
+messagebox.showinfo("", msg) ## if python 3
