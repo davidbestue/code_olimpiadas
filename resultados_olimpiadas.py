@@ -96,11 +96,11 @@ from tkinter import *
 from tkinter import messagebox
 
 top = Tk()
-top.geometry("600x600+200+250")
+top.geometry("600x400+350+40")
 def winners_msg():
    messagebox.showinfo("", msg)
 
 
 B1 = Button(top, text = "Los ganadores son...", command = winners_msg)
-B1.place(x = 200,y = 200)
+B1.place(x = 250,y = 150)
 top.mainloop()
