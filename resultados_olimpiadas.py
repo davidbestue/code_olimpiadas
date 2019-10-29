@@ -92,5 +92,15 @@ msg ='Ganadores: ' + sorted_x[0][0] + ', ' +sorted_x[1][0] + ' and ' + sorted_x[
 #tkMessageBox.showinfo("", msg) ### if python 2
 
 ######################## python 3 ###########################
-from tkinter import messagebox  ## if python 3
-messagebox.showinfo("", msg) ## if python 3
+from tkinter import *
+from tkinter import messagebox
+
+top = Tk()
+top.geometry("1000x1000")
+def winners_msg():
+   messagebox.showinfo("", msg)
+
+
+B1 = Button(top, text = "Los ganadores son...", command = winners_msg)
+B1.place(x = 100,y = 100)
+top.mainloop()
