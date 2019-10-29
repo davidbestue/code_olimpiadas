@@ -83,7 +83,6 @@ sorted_x = sorted(dict_punt.items(), key=lambda kv: kv[1])
 sorted_x.reverse() 
 print(sorted_x)
         
-
 ### Message 
 msg ='Ganadores: ' + sorted_x[0][0] + ', ' +sorted_x[1][0] + ' and ' + sorted_x[2][0]
 
