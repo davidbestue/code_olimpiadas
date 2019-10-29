@@ -9,10 +9,7 @@ import pandas as pd
 import numpy as np
 import easygui
 
- 
-
-### Open .xlsx
-
+ ## Open .xlsx
 path_file = easygui.fileopenbox(msg=None, title=None, default=None)
 df = pd.read_excel(path_file) 
 list_subjects = df.columns
@@ -77,11 +74,11 @@ for subj in list_subjects:
         ###
         resultados_subj.append(total)
     ###
-    dict_punt[subj]=np.mean(resultados_subj)
+    dict_punt[subj]=np.mean(resultados_subj) ### mean por si nos descontamos y alguno tiene mas votos
     ###
 
 
-### print the output
+### print the output in the terminal 
 sorted_x = sorted(dict_punt.items(), key=lambda kv: kv[1]) 
 sorted_x.reverse() 
 print(sorted_x)
