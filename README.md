@@ -1,4 +1,11 @@
 ### Sistema para evaluar el resultado de las olimpiadas  
+
+Manera basica de correrlo (sin entrar en environment)
+
+Abrir anaconda, ir al path y poner
+python -i resultados_olimpiadas.py
+
+
 En python 2 y python3  
 
 Para crear el .cmd que lo abra, seguir [estas](https://www.pythoncentral.io/execute-python-script-file-shell/) indicaciones.
