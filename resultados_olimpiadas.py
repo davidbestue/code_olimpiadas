@@ -4,7 +4,6 @@ Created on Mon Oct 28 23:08:41 2019
 
 @author: David Bestue
 """
-
 import pandas as pd
 import numpy as np
 import easygui
