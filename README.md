@@ -5,7 +5,6 @@ Manera basica de correrlo (sin entrar en environment)
 Abrir anaconda, ir al path y poner
 python -i resultados_olimpiadas.py
 
-
 En python 2 y python3  
 
 Para crear el .cmd que lo abra, seguir [estas](https://www.pythoncentral.io/execute-python-script-file-shell/) indicaciones.
@@ -18,3 +17,8 @@ Para python 2 y python3 se necesitan los modulos pandas, numpy, Easygui y tkMess
 Para instalar easygui: 
 conda install -c dataonlygreater easygui
 Para instalar tkMessageBox
+
+El excel file tiene la siguiente estructura
+Filas: votos
+Columnas: actuante
+En cada cell se ponen 4 numeros (votacion por pregunta)
