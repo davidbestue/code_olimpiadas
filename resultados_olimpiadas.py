@@ -102,5 +102,4 @@ B1 = Button(top, text = "Los ganadores son...", command = winners_msg)
 B1.place(x = 250,y = 150)
 top.mainloop()
 
-
 print(sorted_x)
