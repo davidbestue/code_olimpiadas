@@ -23,6 +23,7 @@ def contar_votos(v):
         p1=2
     else:
         print('Error in p1')
+        print(v)
     ###
     if v[1]=='1':
         p2=-1
@@ -32,6 +33,7 @@ def contar_votos(v):
         p2=2
     else:
         print('Error in p2')
+        print(v)
     ###
     if v[2]=='1':
         p3=1
@@ -45,6 +47,7 @@ def contar_votos(v):
         p3=0.5
     else:
         print('Error in p3')
+        print(v)
     ###
     if v[3]=='1':
         p4=1
@@ -56,6 +59,7 @@ def contar_votos(v):
         p4=-1
     else:
         print('Error in p4')
+        print(v)
     ###
     return p1 + p2 + p3 + p4
 
@@ -82,7 +86,7 @@ sorted_x.reverse()
 
         
 ### Message 
-msg ='Ganadores: ' + sorted_x[0][0] + ', ' +sorted_x[1][0] + ' and ' + sorted_x[2][0]
+msg = sorted_x[0][0] + ', ' +sorted_x[1][0] + ' y ' + sorted_x[2][0]
 
 ######################## python 2 ###########################
 #import tkMessageBox  ## if python 2
